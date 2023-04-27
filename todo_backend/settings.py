@@ -88,12 +88,9 @@ WSGI_APPLICATION = 'todo_backend.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.sqlite3',
         'NAME': 'evle_django',
-        'USER': 'evle_site',
-        'PASSWORD': 'ZNVQsSjNNgfbw6G',
-        'HOST': 'evle.myd.infomaniak.com',
-        'PORT': '3306',
+   
     }
 }
 
